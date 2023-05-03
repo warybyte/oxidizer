@@ -1,4 +1,4 @@
-// This silences some warnings so they don't distract from the exercise.
+// silence some warnings so they don't distract from the exercise.
 #![allow(dead_code, unused_variables)]
 
 fn main() {
