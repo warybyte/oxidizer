@@ -3,13 +3,6 @@
 
 fn main() {
     // This collects any command-line arguments into a vector of Strings.
-    // For example:
-    //
-    //     cargo run apple banana
-    //
-    // ...produces the equivalent of
-    //
-    //     vec!["apple".to_string(), "banana".to_string()]
     let args: Vec<String> = std::env::args().skip(1).collect();
 
     // This consumes the `args` vector to iterate through each String
