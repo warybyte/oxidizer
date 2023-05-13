@@ -2,6 +2,7 @@
 #![allow(dead_code, unused_variables)]
 
 fn main() {
+    // use urcc_ex3::ding, on_off, print_array, print_difference, print_distance;
     use urcc_ex3::ding;
     use urcc_ex3::on_off;
     use urcc_ex3::print_array;
