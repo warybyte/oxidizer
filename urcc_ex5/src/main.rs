@@ -45,10 +45,14 @@ fn main() {
     // Hint: You will need to dereference the mutable reference in order to assign it a
     // new value.
     //
-    // let mut material = "mud".to_string();
-    // println!("This material is just `{}`.", material);
-    // bedazzle(&mut material);
-    // println!("Wow! Now the material is `{}`!", material);
+    let mut material = "mud".to_string();
+    println!("This material is just `{}`.", material);
+    bedazzle(&mut material);
+    println!("Wow! Now the material is `{}`!", material);
+}
+fn bedazzle(s: &mut String) {
+    s.insert_str(0, "sparkly");
+    *s = String::from("sparkly");
 }
 
 fn inspect(s: &String) {
